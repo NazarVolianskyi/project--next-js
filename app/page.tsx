@@ -81,7 +81,6 @@ const Home: React.FC = () => {
               </div>
           )}
 
-          {/* Calculator Section */}
           <div className="mt-8 w-full max-w-xs">
             <h2 className="text-2xl font-bold text-gray-700 mb-4">Calculator</h2>
             <input

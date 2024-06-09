@@ -23,7 +23,7 @@ export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
         <body className={`${inter.className} bg-blue-50 text-gray-900`}>
         <header className="bg-indigo-600 text-white px-4 py-6 flex justify-between items-center shadow-md">
             <h1 className="text-3xl font-bold bg-yellow-300 px-3 py-2 rounded-lg">
-                Author: Nazar Volianskyi, 120748
+                Author: Nazar Volianskyi, nr 120748
             </h1>
         </header>
         <main className="container mx-auto px-4 py-10 bg-white rounded-lg shadow-lg">
