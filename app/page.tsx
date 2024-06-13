@@ -53,7 +53,7 @@ const Home: React.FC = () => {
 
           <button
               onClick={handleGreet}
-              className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-800 focus:outline-none focus:ring-1 focus:ring-blue-500"
+              className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-800 focus:outline-none focus:ring-1 focus:ring-blue-500 border border-4 border-gray-800"
           >
             Say Hi!
           </button>
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
 
           <button
               onClick={() => setShowContactInfo(true)}
-              className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-800 focus:outline-none focus:ring-1 focus:ring-blue-500 mt-4"
+              className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-800 focus:outline-none focus:ring-1 focus:ring-blue-500 mt-4 border border-4 border-gray-800"
           >
             Show contact info
           </button>
@@ -74,7 +74,7 @@ const Home: React.FC = () => {
                 <p>2 semestr, kierunek: Informatyka</p>
                 <button
                     onClick={() => setShowContactInfo(false)}
-                    className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-800 focus:outline-none focus:ring-1 focus:ring-blue-500 mt-4"
+                    className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-800 focus:outline-none focus:ring-1 focus:ring-blue-500 mt-4 border border-4 border-gray-800"
                 >
                   Close
                 </button>
@@ -92,7 +92,7 @@ const Home: React.FC = () => {
             />
             <button
                 onClick={handleCalculate}
-                className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-800 focus:outline-none focus:ring-1 focus:ring-blue-500 w-full"
+                className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-800 focus:outline-none focus:ring-1 focus:ring-blue-500 w-full border border-4 border-gray-800"
             >
               Calculate
             </button>
